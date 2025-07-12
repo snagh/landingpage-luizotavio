@@ -1,0 +1,22 @@
+# Arquivo .gitignore para projetos web simples
+# Ignora arquivos temporários do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignora pastas de configuração do editor
+.vscode/
+.idea/
+
+# Ignora arquivos de log
+*.log
+
+# Ignora arquivos temporários
+*.tmp
+*.swp
+
+# Ignora node_modules caso use Node.js
+node_modules/
+
+# Ignora arquivos de build (caso existam)
+dist/
+build/
