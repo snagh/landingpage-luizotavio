@@ -255,3 +255,18 @@
         display: none;
     }
 }
+
+@media (max-width: 600px) {
+
+    .main-content,
+    .top3-content,
+    .grid-one-content {
+        max-width: 100vw;
+        padding: 2rem 1rem;
+    }
+
+    .responsive-table table {
+        min-width: unset;
+        width: 100%;
+    }
+}
