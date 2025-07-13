@@ -101,3 +101,12 @@ table caption {
     text-align: left;
     margin-bottom: 1rem;
 }
+
+@media (max-width: 600px) {
+    h2 {
+        font-size: clamp(1.6rem, 8vw, 2.5rem);
+        padding: 0 1rem;
+        word-break: normal;
+        white-space: normal;
+    }
+}
